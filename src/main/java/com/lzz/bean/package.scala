@@ -2,6 +2,9 @@ package com.lzz
 
 package object bean {
 
+
+
+
   /**
     * 订单支付数据
     * @param orderId

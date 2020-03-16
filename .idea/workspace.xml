@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/lzz/service/PageViewAnalysesService.scala" line="12" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b05adc3-0e87-4974-b0c6-a176ea04644e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/ReceiptLog.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzz/application/OrderTimeoutAnalysesApplication.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzz/application/OrderTransactionAnalysesApplication.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzz/controller/OrderTransactionAnalysesController.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzz/dao/OrderTransactionAnalysesTDao.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lzz/service/OrderTransactionAnalysesService.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/flink_project.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/AdClickAnalysesApplication$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/AdClickAnalysesApplication$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/AdClickAnalysesApplication$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/AdClickAnalysesApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/AppMarketAnalysesApplication$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/AppMarketAnalysesApplication$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/AppMarketAnalysesApplication$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/AppMarketAnalysesApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/HotProductAnalysesApplication$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/HotProductAnalysesApplication$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/HotProductAnalysesApplication$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/HotProductAnalysesApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/HotResourcesAnalysesApplication$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/HotResourcesAnalysesApplication$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/HotResourcesAnalysesApplication$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/HotResourcesAnalysesApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/LoginFailAnalysesApplication$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/LoginFailAnalysesApplication$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/LoginFailAnalysesApplication$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/LoginFailAnalysesApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/OrderTimeoutAnalysesApplication$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/OrderTimeoutAnalysesApplication$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/OrderTimeoutAnalysesApplication$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/OrderTimeoutAnalysesApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/OrderTransactionAnalysesApplication$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/OrderTransactionAnalysesApplication$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/OrderTransactionAnalysesApplication$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/OrderTransactionAnalysesApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/PageViewAnalysesApplication$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/PageViewAnalysesApplication$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/PageViewAnalysesApplication$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/PageViewAnalysesApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/UniqueVisitorAnalysesApplication$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/UniqueVisitorAnalysesApplication$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/UniqueVisitorAnalysesApplication$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/application/UniqueVisitorAnalysesApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$AdClickLog$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$AdClickLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$ApacheLog$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$ApacheLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$CountByProvince$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$CountByProvince.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$HotResourceClick$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$HotResourceClick.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$LoginEvent$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$LoginEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$MarketingUserBehavior$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$MarketingUserBehavior.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$OrderEvent$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$OrderEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$OrderMergePay$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$OrderMergePay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$TxEvent$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$TxEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$UserBehavior$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$UserBehavior.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$productClick$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package$productClick.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/bean/package.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/common/TApplication$class.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/common/TApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/common/TController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/common/TDao$class.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/common/TDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/common/TService$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/common/TService$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/common/TService$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/common/TService$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/common/TService$class.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/common/TService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/controller/AdClickAnalysesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/controller/AppMarketAnalysesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/controller/HotProductAnalysesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/controller/HotResourcesAnalysesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/controller/LoginFailAnalysesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/controller/OrderTimeoutAnalysesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/controller/OrderTransactionAnalysesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/controller/PageViewAnalysesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/controller/UniqueVisitorAnalysesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/dao/AdClickAnalysesDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/dao/AppMarketAnalysesDao$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/dao/AppMarketAnalysesDao$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/dao/AppMarketAnalysesDao$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/dao/AppMarketAnalysesDao$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/dao/AppMarketAnalysesDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/dao/HotProductAnalysesDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/dao/HotResourcesAnalysesDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/dao/LoginFailAnalysesDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/dao/OrderTimeoutAnalysesDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/dao/OrderTransactionAnalysesTDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/dao/PageViewAnalysesDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/dao/UniqueVisitorAnalysesDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/AdvClickKeyedProcessFunction$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/AdvClickKeyedProcessFunction$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/AdvClickKeyedProcessFunction$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/AdvClickKeyedProcessFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/HotProductAggregateFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/HotProductProcessFunction$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/HotProductProcessFunction$$anonfun$onTimer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/HotProductProcessFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/HotProductWindowFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/HotResourceKeyedProcessFunction$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/HotResourceKeyedProcessFunction$$anonfun$onTimer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/HotResourceKeyedProcessFunction$$anonfun$onTimer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/HotResourceKeyedProcessFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/HotResourcesAggregateFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/HotResourcesWindowFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/OrderTimeoutKeyedProcessFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/UniqueVisitorAnalysesByBloomFilterWindowFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/function/UniqueVisitorAnalysesWindowFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$10$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$10$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$11$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$11$$anonfun$createSerializer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$12$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$12$$anonfun$createSerializer$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$14$$anon$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$14$$anonfun$createSerializer$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$15$$anon$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$15$$anonfun$createSerializer$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$16$$anon$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$16$$anonfun$createSerializer$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$16.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$17$$anon$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$17$$anonfun$createSerializer$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$17.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$18$$anon$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$18$$anonfun$createSerializer$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$18.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$19$$anon$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$19$$anonfun$createSerializer$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$19.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$20.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$21.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$22.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$23.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anon$24.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anonfun$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anonfun$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService$$anonfun$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AdClickAnalysesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AppMarketAnalysesService$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AppMarketAnalysesService$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AppMarketAnalysesService$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AppMarketAnalysesService$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AppMarketAnalysesService$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AppMarketAnalysesService$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AppMarketAnalysesService$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/AppMarketAnalysesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotProductAnalysesService$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotProductAnalysesService$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotProductAnalysesService$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotProductAnalysesService$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotProductAnalysesService$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotProductAnalysesService$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotProductAnalysesService$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotProductAnalysesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotResourcesAnalysesService$$anon$3$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotResourcesAnalysesService$$anon$3$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotResourcesAnalysesService$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotResourcesAnalysesService$$anon$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotResourcesAnalysesService$$anon$5$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotResourcesAnalysesService$$anon$5$$anonfun$createSerializer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotResourcesAnalysesService$$anon$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotResourcesAnalysesService$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotResourcesAnalysesService$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotResourcesAnalysesService$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/HotResourcesAnalysesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anon$3$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anon$3$$anonfun$createSerializer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anon$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anon$5$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anon$5$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anon$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anon$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anon$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anonfun$analysesByCEP$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anonfun$analysesNormal$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService$$anonfun$analysesNormal$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/LoginFailAnalysesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anon$4$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anon$4$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anon$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anon$5$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anon$5$$anonfun$createSerializer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anon$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anon$6$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anon$6$$anonfun$createSerializer$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anon$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anonfun$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anonfun$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anonfun$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anonfun$13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anonfun$14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anonfun$15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anonfun$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService$$anonfun$analysesNormal$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTimeoutAnalysesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$10$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$10$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$11$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$11$$anonfun$createSerializer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$13$$anon$14$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$13$$anon$14$$anonfun$createSerializer$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$13$$anon$14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$13$$anon$15$$anon$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$13$$anon$15$$anonfun$createSerializer$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$13$$anon$15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$13$$anon$16$$anon$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$13$$anon$16$$anonfun$createSerializer$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$13$$anon$16.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$13$$anon$17$$anon$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$13$$anon$17$$anonfun$createSerializer$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$13$$anon$17.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$13$$anon$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$13$$anonfun$createSerializer$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$18$$anon$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$18$$anonfun$createSerializer$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$18.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$19$$anon$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$19$$anonfun$createSerializer$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$19.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anon$20.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anonfun$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anonfun$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anonfun$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService$$anonfun$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/OrderTransactionAnalysesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/PageViewAnalysesService$$anon$2$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/PageViewAnalysesService$$anon$2$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/PageViewAnalysesService$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/PageViewAnalysesService$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/PageViewAnalysesService$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/PageViewAnalysesService$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/PageViewAnalysesService$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/PageViewAnalysesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/UniqueVisitorAnalysesService$$anon$3$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/UniqueVisitorAnalysesService$$anon$3$$anonfun$createSerializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/UniqueVisitorAnalysesService$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/UniqueVisitorAnalysesService$$anon$4$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/UniqueVisitorAnalysesService$$anon$4$$anonfun$createSerializer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/UniqueVisitorAnalysesService$$anon$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/UniqueVisitorAnalysesService$$anon$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/UniqueVisitorAnalysesService$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/UniqueVisitorAnalysesService$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/UniqueVisitorAnalysesService$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/UniqueVisitorAnalysesService$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/UniqueVisitorAnalysesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/package$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/service/package.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/util/FlinkStreamEnv$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/util/FlinkStreamEnv.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/util/MockBloomFilter$$anonfun$offset$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/util/MockBloomFilter$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lzz/util/MockBloomFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzz/application/OrderTimeoutApalysesApplication.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzz/bean/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzz/bean/package.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzz/controller/OrderTimeoutApalysesController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzz/controller/OrderTimeoutAnalysesController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzz/dao/OrderTimeoutApalysesDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzz/dao/OrderTimeoutAnalysesDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzz/service/OrderTimeoutApalysesService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzz/service/OrderTimeoutAnalysesService.scala" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>AggregateFunction</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/bean/UserBehavior.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/common/TService.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/function/HotProductAggregateFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/function/HotProductWindowFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/service/HotProductAnalysesService.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/controller/HotProductAnalysesController.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/function/HotProductProcessFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/dao/HotResourcesAnalysesDao.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/application/HotResourcesAnalysesApplication.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/function/HotResourcesAggregateFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/function/HotResourcesWindowFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/function/HotResourceKeyedProcessFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/service/HotResourcesAnalysesService.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/controller/HotResourcesAnalysesController.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/dao/PageViewAnalysesDao.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/controller/PageViewAnalysesController.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/service/PageViewAnalysesService.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/application/PageViewAnalysesApplication.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/dao/UniqueVisitorAnalysesDao.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/application/UniqueVisitorAnalysesApplication.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/function/UniqueVisitorAnalysesWindowFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/controller/UniqueVisitorAnalysesController.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/util/MockBloomFilter.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/function/UniqueVisitorAnalysesByBloomFilterWindowFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/service/UniqueVisitorAnalysesService.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/controller/AppMarketAnalysesController.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/dao/AppMarketAnalysesDao.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/application/AppMarketAnalysesApplication.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/service/AppMarketAnalysesService.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/dao/AdClickAnalysesDao.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/controller/AdClickAnalysesController.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/application/AdClickAnalysesApplication.scala" />
+        <option value="$PROJECT_DIR$/input/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/function/AdvClickKeyedProcessFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/dao/LoginFailAnalysesTDao.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/dao/LoginFailAnalysesDao.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/controller/LoginFailAnalysesController.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/application/LoginFailAnalysesApplication.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/service/AdClickAnalysesService.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/service/LoginFailAnalysesService.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/dao/OrderTimeoutApalysesDao.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/application/OrderTimeoutApalysesApplication.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/controller/OrderTimeoutApalysesController.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/service/OrderTimeoutApalysesService.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/function/OrderTimeoutKeyedProcessFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/dao/OrderTransactionAnalysesTDao.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/application/OrderTransactionAnalysesApplication.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/controller/OrderTransactionAnalysesController.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/bean/package.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzz/service/OrderTransactionAnalysesService.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\MavenLocalRepository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="H:\IntelliJ IDEA 2019.1.3\plugins\maven\lib\maven3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="flink_project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="flink_project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="511" />
+    <option name="y" value="-14" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flink_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/input" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lzz.function" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea_workspace\flink_project\input" />
+      <recent name="E:\idea_workspace\flink_project\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.OrderTransactionAnalysesApplication">
+    <configuration name="AdClickAnalysesApplication" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzz.application.AdClickAnalysesApplication" />
+      <module name="flink_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppMarketAnalysesApplication" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzz.application.AppMarketAnalysesApplication" />
+      <module name="flink_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginFailAnalysesApplication" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzz.application.LoginFailAnalysesApplication" />
+      <module name="flink_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTimeoutApalysesApplication" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzz.application.OrderTimeoutAnalysesApplication" />
+      <module name="flink_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTransactionAnalysesApplication" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzz.application.OrderTransactionAnalysesApplication" />
+      <module name="flink_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OrderTransactionAnalysesApplication" />
+        <item itemvalue="Application.OrderTimeoutApalysesApplication" />
+        <item itemvalue="Application.LoginFailAnalysesApplication" />
+        <item itemvalue="Application.AdClickAnalysesApplication" />
+        <item itemvalue="Application.AppMarketAnalysesApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17377399" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31208053" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3242938" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.47697368" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34723788" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32468995" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/controller/UniqueVisitorAnalysesController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#28#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/util/MockBloomFilter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MavenLocalRepository/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2.jar!/org/apache/flink/streaming/api/windowing/triggers/Trigger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MavenLocalRepository/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2.jar!/org/apache/flink/streaming/api/windowing/triggers/TriggerResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/function/UniqueVisitorAnalysesWindowFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="86" lean-forward="true" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
+          <folding>
+            <element signature="e#26#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/function/UniqueVisitorAnalysesByBloomFilterWindowFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#26#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/application/UniqueVisitorAnalysesApplication.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="e#29#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/service/UniqueVisitorAnalysesService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="82" column="14" lean-forward="true" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
+          <folding>
+            <element signature="e#25#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/application/HotResourcesAnalysesApplication.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#29#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/controller/HotProductAnalysesController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <element signature="e#28#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/dao/AppMarketAnalysesDao.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="e#21#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MavenLocalRepository/org/apache/flink/flink-streaming-scala_2.11/1.7.2/flink-streaming-scala_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/scala/function/ProcessWindowFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/service/AppMarketAnalysesService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding>
+            <element signature="e#25#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/controller/AppMarketAnalysesController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#28#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/AdClickLog.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/dao/AdClickAnalysesDao.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/scriptFile.scala" />
+    <entry file="jar://E:/MavenLocalRepository/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2.jar!/org/apache/flink/api/common/functions/AggregateFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MavenLocalRepository/org/apache/flink/flink-streaming-scala_2.11/1.7.2/flink-streaming-scala_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/scala/function/WindowFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MavenLocalRepository/org/apache/flink/flink-streaming-scala_2.11/1.7.2/flink-streaming-scala_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/scala/WindowedStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="297" column="36" selection-start-line="297" selection-start-column="22" selection-end-line="297" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/application/AppMarketAnalysesApplication.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <element signature="e#29#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MavenLocalRepository/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2.jar!/org/apache/flink/streaming/api/operators/StreamSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MavenLocalRepository/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2.jar!/org/apache/flink/streaming/api/functions/source/ContinuousFileMonitoringFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/util/FlinkStreamEnv.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#22#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MavenLocalRepository/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2.jar!/org/apache/flink/streaming/api/functions/KeyedProcessFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/function/AdvClickKeyedProcessFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+          <folding>
+            <element signature="e#26#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/LoginLog.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/dao/LoginFailAnalysesDao.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/controller/LoginFailAnalysesController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#28#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/controller/AdClickAnalysesController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="e#28#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/service/AdClickAnalysesService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="122" column="58" selection-start-line="122" selection-start-column="58" selection-end-line="122" selection-end-column="58" />
+          <folding>
+            <element signature="e#25#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/application/AdClickAnalysesApplication.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#29#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="156" column="21" lean-forward="true" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/service/LoginFailAnalysesService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1217">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="e#25#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/application/LoginFailAnalysesApplication.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#29#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/common/TApplication.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/UserBehavior.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/dao/OrderTimeoutAnalysesDao.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/application/OrderTimeoutAnalysesApplication.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="e#29#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/controller/OrderTimeoutAnalysesController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="e#28#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/service/OrderTimeoutAnalysesService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#25#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/OrderLog.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/ReceiptLog.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/function/OrderTimeoutKeyedProcessFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#26#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/dao/OrderTransactionAnalysesTDao.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/bean/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/controller/OrderTransactionAnalysesController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding>
+            <element signature="e#28#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MavenLocalRepository/org/apache/flink/flink-streaming-scala_2.11/1.7.2/flink-streaming-scala_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/scala/ConnectedStreams.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="121" column="42" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MavenLocalRepository/org/apache/flink/flink-streaming-scala_2.11/1.7.2/flink-streaming-scala_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/scala/KeyedStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="204" column="48" selection-start-line="204" selection-start-column="29" selection-end-line="204" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/service/OrderTransactionAnalysesService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#25#66#0" expanded="true" />
+            <element signature="e#629#3233#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzz/application/OrderTransactionAnalysesApplication.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#29#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
